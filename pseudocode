@@ -1,0 +1,47 @@
+Oregon Trail
+Basic Rules:
+	1 player
+	Ask player's name and assign player a character and value
+	Menu with choices for gameplay
+		Shop for supplies
+		rest
+		forge
+		hunt
+		exit
+	Give player a description of game and journey, and each new location
+	Validate player's points at each stop
+	Allow player to homestead or exit game at each stop
+	Allow player to play again with new character and value
+	4 locations 
+		Fort Kearney
+		Independence Rock
+		Snake River
+		Willamette Valley-Oregon
+Start Journey:
+1. Ask player for name, and # in party
+2. Assign player an identity and monetary value (banker, $1600)
+3. Display menu and give player choice for first move
+4. Menu
+	-Buy Supplies
+	-forge ahead
+	-hunt
+	-rest
+	-exit
+5. Player makes choice from menu, then the options for that choice are displayed
+6. Roadblocks in game 
+	-family member can be sick or die
+	-ox can die
+	-player can die
+7. Do steps 4-6 again until player:
+	-reaches Oregon
+	-player settles in a location
+	-player quits
+	-player dies
+8. When player finishes or ends the game, or dies ("you have dies of dysentary")
+	-Print score
+		-score = points for living family members and remaining cash 
+
+Data we need to track:
+	Cash/points
+	# of family members
+	location on the journey 
